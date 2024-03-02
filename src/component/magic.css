@@ -1,0 +1,57 @@
+body {
+    background-color:white;
+  }
+  .Parent {
+    box-shadow: 2px 3px 10px 1px rgb(29, 29, 29);
+    border-radius: 10px;
+    height: 420px;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: radial-gradient( */
+      /* background: rgba(255, 13, 0, 0); */
+background: linear-gradient(90deg, rgb(199, 105, 171) 34%, rgb(237, 242, 96) 66%);
+    /* ); */
+  }
+  h1 {
+    font-size: 50px;
+    font-family: Tilt Prism;
+    color: rgb(14, 14, 13);
+  }
+  label {
+    font-size: 25px;
+    color: rgb(8, 8, 9);
+    font-family: Kode Mono;
+  }
+  input {
+    height: 20px;
+    width: 150px;
+   
+    margin: 10px;
+  }
+  button {
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    font-size: larger;
+    background-color: seashell;
+    font-family: "Exo 2";
+    font-weight: 700;
+  }
+  button:hover {
+    height: 60px;
+    width: 180px;
+    transition: 800ms ease-in-out;
+    margin-left: 85px;
+    margin-top: 20px;
+    color: aliceblue;
+    background-color: #222222;
+  }
+  #lmail {
+    margin-left: 44px;
+  }
